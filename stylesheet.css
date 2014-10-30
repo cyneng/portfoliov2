@@ -6,8 +6,11 @@ body {
   background-color: #CCCCFF;
 }
 
+div {
+  margin: auto;
+}
 
-ul{
+ul {
   list-style-type: none;
   position: fixed;
 }
@@ -27,7 +30,7 @@ h1 {
 }
 
 /* trying to figure out how to resize the main image on my index page */
-.indeximage {
+#indeximage {
   width: 200px;
   height: 120px;
 }
@@ -50,4 +53,7 @@ td {
     background-color: #ffffff;
     text-align: center;
 }
+
+
+
 
