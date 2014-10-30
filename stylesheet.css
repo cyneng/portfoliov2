@@ -29,20 +29,15 @@ h1 {
   color: #000026;
 }
 
-/* trying to figure out how to resize the main image on my index page */
-#indeximage {
-  width: 200px;
-  height: 120px;
-}
 
 /* just want to have this affect on my portfolio page. Do I use a class or id? */
 
-img {
+.imagehoverclass {
   opacity: 0.6;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-img:hover {
+imagehoverclass:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 } 
