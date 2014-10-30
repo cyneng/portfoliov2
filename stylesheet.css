@@ -37,7 +37,7 @@ h1 {
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
-imagehoverclass:hover {
+.imagehoverclass:hover {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
 } 
